@@ -1,0 +1,11 @@
+.book{
+  display: flex;
+  gap: 5px;
+  list-style-type: disc;
+}
+.title{
+  font-size: 1.1rem;
+}
+.author{
+  font-style: italic;
+}
