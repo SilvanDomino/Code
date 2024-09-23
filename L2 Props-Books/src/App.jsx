@@ -34,10 +34,8 @@ function App() {
   ]
   return (
     <ul className='booklist'>
-      <Book/>
-      <Book/>
-      <Book/>
-      <Book/>
+      {books.map(value => <Book title={value.title} author={value.author}/>
+      )}
     </ul>
   )
 }

@@ -1,9 +1,9 @@
 import './Book.css';
-export function Book(){
+export function Book(props){
   return (
     <li className="book">
-      <div className="title">De Avonden </div>
-      <div className="author">Gerard Reve</div>
+      <div className="title">{props.title}</div>
+      <div className="author">{props.author}</div>
     </li>
   )
 }
